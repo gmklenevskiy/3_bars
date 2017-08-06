@@ -10,15 +10,15 @@ def load_data(filepath):
         return json.load(reader)
 
 
-def get_biggest_bar(data):
-    return max( data, key=lambda item: item['SeatsCount'])
+def get_biggest_bar(reader):
+    return max( reader, key=lambda item: item['SeatsCount'])
 
 
-def get_smallest_bar(data):
-    return min( data, key = lambda item: item['SeatsCount'])
+def get_smallest_bar(reader):
+    return min( reader, key = lambda item: item['SeatsCount'])
 
-def get_closest_bar(data, longitude, latitude):
-    return min(data, key = lambda item: (item['geoData']['coordinates'][0] - longitude)**2 + (item['geoData']['coordinates'][1]-latitude)**2)
+def get_closest_bar(reader, longitude, latitude):
+    return min(reader, key = lambda item: (item['geoData']['coordinates'][0] - longitude)**2 + (item['geoData']['coordinates'][1]-latitude)**2)
 
 
 if __name__ == '__main__':
