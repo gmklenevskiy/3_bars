@@ -1,22 +1,25 @@
-# Ближайшие бары
+﻿# The closest bar
 
-[FIXME. Здесь будет описание проекта]
+This script determines and print three bars (from https://data.mos.ru/opendata/7710881420-bary):
+1 - the biggest bar
+2 - the smallest bar 
+3 - the closest bar 
 
-# Как запустить
+# How to launch
 
-Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
-
-Запуск на Linux:
-
-```#!bash
-
-$ python bars.py # possibly requires call of python3 executive instead of just python
-# FIXME вывести пример ответа скрипта
-
+1) To launch the script
+```
+bars.py <path to file>
+```
+2)Enter your coordinates after determining  of first two bars 
+```
+Please enter your GeoData
+enter the latitude <float>
+enter the longitude <float>
 ```
 
-Запуск на Windows происходит аналогично.
 
-# Цели проекта
 
-Код создан в учебных целях. В рамках учебного курса по веб-разработке - [DEVMAN.org](https://devman.org)
+# Project Goals
+
+The code is written for educational purposes. Training course for web-developers - DEVMAN.org
