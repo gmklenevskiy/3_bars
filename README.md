@@ -1,8 +1,8 @@
 ﻿# The closest bar
 
 This script determines and print three bars (from https://data.mos.ru/opendata/7710881420-bary):
-1 - the biggest bar
-2 - the smallest bar 
+1 - the biggest bar,
+2 - the smallest bar, 
 3 - the closest bar 
 
 # How to launch
